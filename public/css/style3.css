@@ -1,0 +1,49 @@
+.list_product .item{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+   }
+.item .text{
+    display: flex;
+    flex-direction: row;
+   }
+.item .text .price{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 100px;
+   }
+.item .text .price .sale_price{
+    padding-left: 30px;
+   }
+.item .quantity{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-top: 100px;
+   }
+.item .quantity .quantity_product{
+    height: 30px;
+    width: 80px;
+    border: 1px solid #ccc;
+
+   }
+.item .quantity .btn-number{
+    height: 30px;
+    border: 1px solid #ccc;
+   }
+.item .text h3{
+    width: 300px;
+    font-size: 25px;
+    padding: 50px 0;
+    color: blue !important;
+   
+  }
+.item .text_price{
+    padding-left: 80px;
+    padding-top: 100px;
+    color: red;
+  }
+.item .btn{
+    margin-top: 80px;
+}
